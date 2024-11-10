@@ -45,5 +45,5 @@ This project is open-source and available under the MIT License.
 
    
 ## Author
-**Created and maintained by Kareem Meshal**
+**Created and maintained by -Kareem Meshal-**
 **Feel free to reach out for any questions or suggestions.**
