@@ -1,0 +1,74 @@
+name: flutter_e_commers
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+# ----------- Packages -------------------- #
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages #
+
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.4.0
+  url_launcher: ^6.3.1
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # State Managment
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  get_it: ^8.0.2
+
+#Product Specific
+
+# ---------- ./ Pacjages End ----------------------- #
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+# -------------- Local ASSETS---------------------#
+
+assets:
+  - assets/logos/
+  - assets/icons/
+  - assets/images/
+
+# ------------  Local FONTS ------------------------
+
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Italic.ttf
+        style: italic
+      - asset: assets/fonts/Medium.ttf
+        weight: 500
+      - asset: assets/fonts/MediumItalic.ttf
+        weight: 500
+        style: italic
+      - asset: assets/fonts/Bold.ttf
+        weight: 600
+      - asset: assets/fonts/BoldItalic.ttf
+        weight: 600
+        style: italic
+      - asset: assets/fonts/ExtraBold.ttf
+        weight: 700
