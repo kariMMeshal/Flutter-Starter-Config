@@ -11,11 +11,14 @@ The project follows a modular and scalable structure:
 bash
 Copy code
 lib/
-├── constants/             # Constants for global use (e.g., colors, typography)
-├── helpers/               # Helper functions (e.g., validators, formatters)
-├── themes/                # Theme files for light and dark mode
-├── utils/                 # Utility classes (e.g., APIs, storage)
-└── main.dart              # Entry point of the Flutter application
+├── constants/    # Global constants (e.g., colors, typography)
+├── helpers/      # Helper functions (e.g., validators, formatters)
+├── themes/       # Light and dark mode theme files
+├── utils/        # Utility classes (e.g., APIs, storage)
+└── main.dart     # Entry point of the Flutter application
+
+
+
 Getting Started
 Prerequisites
 Flutter SDK
