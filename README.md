@@ -29,7 +29,7 @@ Here is an overview of the project's folder structure:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/flutter-starter-config.git
+   git clone https://github.com/kariMMeshal/Flutter-Starter-Config.git
    cd flutter-starter-config
 
 2. **Install dependencies**:
@@ -38,3 +38,8 @@ Here is an overview of the project's folder structure:
 3. **Run the app**:
     You can now run the app using:
    flutter run
+
+
+## License : 
+This project is open-source and available under the MIT License.
+   
